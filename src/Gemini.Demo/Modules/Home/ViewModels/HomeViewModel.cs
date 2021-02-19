@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.ComponentModel;
 using System.ComponentModel.Composition;
 using System.IO;
@@ -135,7 +135,7 @@ namespace Gemini.Demo.Modules.Home.ViewModels
 			Background = Colors.CornflowerBlue;
 			Foreground = Colors.White;
 		    TextAlignment = TextAlignment.Center;
-		    Text = "Welcome to the Gemini Demo!";
+		    Text = "Welcome to the OPEN FXL - 7 Demo!";
 		    IntegerValue = 3;
 		    NullableIntegerValue = null;
 		    FloatValue = 5.2f;

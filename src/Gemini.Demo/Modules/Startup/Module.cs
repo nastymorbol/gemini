@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
 using System.Windows;
@@ -32,9 +32,9 @@ namespace Gemini.Demo.Modules.Startup
             Shell.ToolBars.Visible = true;
 
             //MainWindow.WindowState = WindowState.Maximized;
-            MainWindow.Title = "Gemini Demo";
+            MainWindow.Title = "OPEN FXL 7 - Demo";
 
-            Shell.StatusBar.AddItem("Hello world!", new GridLength(1, GridUnitType.Star));
+            Shell.StatusBar.AddItem("Hello FXL!", new GridLength(1, GridUnitType.Star));
             Shell.StatusBar.AddItem("Ln 44", new GridLength(100));
             Shell.StatusBar.AddItem("Col 79", new GridLength(100));
 
